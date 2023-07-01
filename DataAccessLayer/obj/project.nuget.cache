@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SK5uzH+2ZhUI2qWdEwBHXOCZ/oOI/vAriVBOIpTGIRcux8FN7Az7fU6DK4+hiiKGfShjyMRbJIFcWUD1q4FwAw==",
+  "dgSpecHash": "Z0Q78ZhzKXgVPZtPmKf7qzRx7g1M5O1mgFstECL0lyAXRO60fRJkxCN4ZcbT6x2fYQrKx27xgkOYIEE0ARxb5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\merti\\OneDrive\\Masaüstü\\NetCoreMVC\\NetCoreMVC\\NetCoreMVC.csproj",
+  "projectFilePath": "C:\\Users\\merti\\OneDrive\\Masaüstü\\NetCoreMVC\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\merti\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\merti\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

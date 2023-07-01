@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SK5uzH+2ZhUI2qWdEwBHXOCZ/oOI/vAriVBOIpTGIRcux8FN7Az7fU6DK4+hiiKGfShjyMRbJIFcWUD1q4FwAw==",
+  "dgSpecHash": "Cd394zo+113bPhav33Jz8cASLuUhKM9BN0m4wHcVLIRXVZgCKETYEXBdEnHNingxEzbluc3SKLUrjBRiT7PqkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\merti\\OneDrive\\Masaüstü\\NetCoreMVC\\NetCoreMVC\\NetCoreMVC.csproj",
+  "projectFilePath": "C:\\Users\\merti\\OneDrive\\Masaüstü\\NetCoreMVC\\BussinessLayer\\BussinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\merti\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\merti\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
