@@ -1,0 +1,28 @@
+LAYERLAR
+
+1.entity layer : projedeki classların ve propertlerin tutulduğu katman database tarafında classlar tabloları propertler ise tabloların sütunlarını ifade eder örnek vermek gereksirse customer classının ıd name surname vb gibi propları olur bunlar db tarafında tablomuz customer stunlarımızsa ıd name surname vb gibi şeylerdir.
+
+2.data access layer : verilere eriştiğimiz katmandır bu katmanda crud işlemleri yapılır.
+
+3.business layer : bu katmanda kurallar ve kontrol blokları bulunur data access layer ile presentation layer arasında denetleyici görevi görür örnek vermek gerekirse bir kullanıcı şifre belirlerken şifresinde hangi karakterleri kullanamayacağını bu katman belirler.
+
+4.presentation layer : bu katman kullanıcının gördüğü katmandır bir başka adı uı katmanıdır.
+
+--------------------------------------------------------------------------------------------------
+
+- concrete yapilarda abstract(soyut) yapilar olmaz tamamen somut yapilar olur
+
+- propertyler ile fieldlar arasindaki fark proplarda geti ve seti bulunur
+
+- methodlar ve fonksiyonlar arasindaki fark methodlar nesnelere ihtiyac duyarlar fakat fonksiyonlar boyle bir seye ihtiyac duymazlar bu yuzden methodlar classlar icinde tanimlanir ve nesne varyasyonlari ile kullanilir , fonksiyonlarda classlar icerisinde tanimlanir fakat o classa ait seyler icermez  yani nesnelere bagimliligi yoktur ornek vermek gerekirse bir kopek classi havlamak diye bir metod icerir cunku sadece kopekler havlar ve havlama olarak tanimlanan metod kopek nesnesine ihtiyac duyar fakat bir insan classi oldugunu dusunelim  ve diyelim ki beslenmek adinda bir fonksiyon yazilacak bunun fonksiyon olmasinin sebebi beslenme islemini hem insan hemde kopekte yapabilir bu yuzden partial bir class  ihtiyaci dogurmaz 
+(partial class = Partial class bize bir class' ı birden fazla class olarak bölmemize, constructor, değişken, property, metodları vs. düzenli bir şekilde ayrı ayrı oluşturmamızı sağlamaktadır.) 
+fakat her dilde durum ayni degildir javada fonksiyonlar yoktur hersey methoddur fakat bu ihtiyaca cevap verebilmek icin static methodlar vardir 
+( static methodlar = çinde buluduğu sınıftan nesne oluşturulmadan veya hiç bir nesneye referans olmadan kullanılabilen üyeler static olarak nitelendirilir. Metotlar ve alanlar staticolarak tanımlanabilir.)
+
+-MVC uygulamasında veri tabanı tablolarını Code First yöntemi ile oluşturmaya başladığımızda yapılan validasyon işlemlerine Data Annotations denir
+
+-FluentValidation bir veri doğrulama kütüphanesidir. FluentValidation ve benzeri ürünlerin kullanılması, verilerin doğru şekilde yani verilerin oluştururken konulmuş kısıtlamaları sağlayarak kurallara uyumlu halde olmasını ve kullanıcı ya da sistem kaynaklı hataların oluşmasını engeller.
+
+-Kod içinde bir değerin protected olarak tanımlanması; o değere, bulunduğu class ve ondan türetilen diğer sınıflar içinden erişilebilir olduğunu göstermektedir. Protected; bir anlamda, public ve private erişim belirleyicilerinin birleşimi olarak görülebilmektedir.
+
+
