@@ -25,4 +25,6 @@ fakat her dilde durum ayni degildir javada fonksiyonlar yoktur hersey methoddur 
 
 -Kod içinde bir değerin protected olarak tanımlanması; o değere, bulunduğu class ve ondan türetilen diğer sınıflar içinden erişilebilir olduğunu göstermektedir. Protected; bir anlamda, public ve private erişim belirleyicilerinin birleşimi olarak görülebilmektedir.
 
+-Dependency Injection, bir nesnenin ihtiyaç duyduğu, bir diğer deyimle bağımlı olduğu nesneleri direkt olarak kendi içerisinde oluşturmak yerine dışarıdan enjekte etmeyi mümkün hale getiren bir programlama tekniğidir. Dependency Injection bağımlılıkları tamamen bitirmez, fakat bir birilerine sıkı bir şekilde bağlı olan (tightly coupled) iki nesne arasındaki ilişkinin daha gevşek bir yapıya (loosely coupled) kavuşmasını sağlar.
+
 
