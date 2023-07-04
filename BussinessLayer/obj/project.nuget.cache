@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "ibjxhsqe5CaqC4BJWiIs4nO09b+tJKnmFMFWgGXL8m0cGgQxAFstJqrJYczAKNPyHoyYklhJ2O8+PKucF9Taew==",
+  "dgSpecHash": "aj78gKW+v5lPoPTxXa5qkXyI5gljluHv6FHsG4aIzvNP+cKeWTrG8Ed86w5ZDK6I9Eylp1l7+S9onZ309t9IDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\merti\\OneDrive\\Masaüstü\\NetCoreMVC\\BussinessLayer\\BussinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\merti\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\merti\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\merti\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\merti\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\merti\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\merti\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\merti\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\merti\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
