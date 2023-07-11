@@ -27,4 +27,10 @@ fakat her dilde durum ayni degildir javada fonksiyonlar yoktur hersey methoddur 
 
 -Dependency Injection, bir nesnenin ihtiyaç duyduğu, bir diğer deyimle bağımlı olduğu nesneleri direkt olarak kendi içerisinde oluşturmak yerine dışarıdan enjekte etmeyi mümkün hale getiren bir programlama tekniğidir. Dependency Injection bağımlılıkları tamamen bitirmez, fakat bir birilerine sıkı bir şekilde bağlı olan (tightly coupled) iki nesne arasındaki ilişkinin daha gevşek bir yapıya (loosely coupled) kavuşmasını sağlar.
 
+- Partial View’de bir veri bize döndürücekse bunu mutlaka Contollerden alması gerekmektedir.
+- Her bir View’in Partiala Controller üzerinden veri göndermek hem Controller maliyetini attırııcaktır hem de Controllera amacını saptıracaktır.
+- PartialView yapılanması ihtiyacı olan dataları Controller üzerinden elde edeceği için Controller’daki maliyeti artırmakta ve SOLID prensiplerine aykırı davranılmasına sebebiyet verebilmektedir.
+- PartiView yapısal olarak controller üzerinden beslenmektedir.
+- *ViewCompenent* ihtiyacı olan dataları controller üzerinden değil direkt kendi cs.dosyasında elde edebilmektedir.Böylece controllerdaki luzumsuz maliyeti ortadan kaldırmış olmaktayız.
+
 
